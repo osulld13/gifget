@@ -7,4 +7,5 @@ import java.util.List;
 public interface GifDataSource {
     public List<Gif> getGifs();
     public Gif findByName(String name);
+    public List<Gif> findByCategoryId(int id);
 }
